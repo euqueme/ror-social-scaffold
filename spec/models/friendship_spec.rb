@@ -4,8 +4,8 @@ require 'rails_helper'
 RSpec.describe Friendship, type: :model do
   context 'Validation tests' do
     subject { Friendship.new }
-    let(:sender) { User.create(name: 'Audrey', email: 'audrey@gmail.com') }
-    let(:reciever) { User.create(name: 'Maru', email: 'maru@gmail.com') }
+    let(:sender) { User.create(name: 'Audrey', email: 'audrey@gmail.com', password: '123456') }
+    let(:reciever) { User.create(name: 'Maru', email: 'maru@gmail.com', password: '123456') }
 
     it 'valid with sender and reciever' do
       subject.sender = sender
