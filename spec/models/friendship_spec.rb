@@ -28,25 +28,33 @@ RSpec.describe Friendship, type: :model do
       subject.update!(sender: sender, reciever: reciever, status: true)
       expect(Friendship.count).to eq(count + 1)
     end
+  end
+
+  context 'Custom Validation tests' do
+    subject { Friendship.new }
+    let(:sender) { User.create(name: 'Audrey', email: 'audrey@gmail.com', password: '123456') }
+    let(:reciever) { User.create(name: 'Maru', email: 'maru@gmail.com', password: '123456') }
 
     it 'validates against duplicate friendship' do
       sender.friendships.build(reciever: reciever, status: false).save
       subject.sender = sender
       subject.reciever = reciever
-      expect { subject.save! }.to raise_error(ActiveRecord::RecordInvalid, "Validation failed: This relationship already exists")
+      error_message = 'Validation failed: This relationship already exists'
+      expect { subject.save! }.to raise_error(ActiveRecord::RecordInvalid, error_message)
     end
-      
+
     it 'validates against duplicate inverse-friendship' do
       sender.inverse_friendships.build(sender: reciever, status: false).save
       subject.sender = sender
       subject.reciever = reciever
-      expect { subject.save! }.to raise_error(ActiveRecord::RecordInvalid, "Validation failed: This relationship already exists")
+      error_message = 'Validation failed: This relationship already exists'
+      expect { subject.save! }.to raise_error(ActiveRecord::RecordInvalid, error_message)
     end
-      
+
     it 'validates against self-friendship' do
       subject.sender = sender
       subject.reciever = sender
-      expect { subject.save! }.to raise_error(ActiveRecord::RecordInvalid, "Validation failed: You can't be your own friend")
+      expect { subject.save! }.to raise_error(ActiveRecord::RecordInvalid)
     end
   end
 
