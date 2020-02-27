@@ -13,7 +13,7 @@ class SelfFriendshipValidator < ActiveModel::Validator
 end
 
 class Friendship < ApplicationRecord
-  validates_with DuplicateValidator
+  validates_with DuplicateValidator, on: :create
   validates_with SelfFriendshipValidator
 
   belongs_to :sender, class_name: :User
