@@ -62,7 +62,7 @@
 
 This project is based on facebook and already included the MVC for users, posts comments, posts likes and dislikes we added functionality for Friendships, Unit and integration tests and Omniauth authentication as an extra.
 
-![Product Name Screen Shot][product-screenshot](https://audmaru-stay-in-touch.herokuapp.com/)
+[![Product Name Screen Shot][product-screenshot]](https://audmaru-stay-in-touch.herokuapp.com/)
 
 This is the final Microverse project of the Ruby on Rails Curriculum
 
