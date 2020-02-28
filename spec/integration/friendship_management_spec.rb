@@ -47,7 +47,7 @@ RSpec.describe 'Friendship management', type: :feature do
   end
 
   scenario 'Accept friendship' do
-    sender.friendships.build(reciever_id: reciever.id, status: false).save
+    sender.friendships.build(reciever_id: reciever.id).save
     visit root_path
     fill_in 'user_email', with: reciever.email
     fill_in 'user_password', with: reciever.password
@@ -68,7 +68,7 @@ RSpec.describe 'Friendship management', type: :feature do
   end
 
   scenario 'Decline friendship' do
-    sender.friendships.build(reciever_id: reciever.id, status: false).save
+    sender.friendships.build(reciever_id: reciever.id).save
     visit root_path
     fill_in 'user_email', with: reciever.email
     fill_in 'user_password', with: reciever.password
