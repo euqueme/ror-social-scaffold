@@ -17,11 +17,12 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Audrey-Ella-xo/ror-social-scaffold">
+  <a href="https://github.com/euqueme/ror-social-scaffold">
     <img src="https://raw.githubusercontent.com/euqueme/toy-app/master/app/assets/images/mLogo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -30,12 +31,12 @@
   <p align="center">
     This project is part of the Microverse Ruby on Rails curriculum!
     <br />
-    <a href="https://github.com/Audrey-Ella-xo/ror-social-scaffold"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/euqueme/ror-social-scaffold"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Audrey-Ella-xo/ror-social-scaffold/issues">Report Bug</a>
+    <a href="https://github.com/euqueme/ror-social-scaffold/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Audrey-Ella-xo/ror-social-scaffold/issues">Request Feature</a>
+    <a href="https://github.com/euqueme/ror-social-scaffold/issues">Request Feature</a>
   </p>
 </p>
 
@@ -140,12 +141,16 @@ This project was built using these technologies.
 <!-- CONTACT -->
 ## Authors
 
-Audrey Emmanuella Odiaka - [@o___audrey_xo](https://twitter.com/o___audrey_xo) - [@audrey-ella-xo](https://github.com/audrey-ella-xo) - anitaudrey@gmail.com
-<br />
-<br />
-María Eugenia Quemé - [@MaruKK](https://twitter.com/MaruKK) - [@euqueme](https://github.com/euqueme) - euqueme@gmail.com
+👤 **Audrey Emmanuella Odiaka** 
+- Twitter: [@o___audrey_xo](https://twitter.com/o___audrey_xo) 
+- Github: [@audrey-ella-xo](https://github.com/audrey-ella-xo) 
+- Gmail: anitaudrey@gmail.com
 
-Project Link: [https://github.com/Audrey-Ella-xo/ror-social-scaffold/)
+👤 **María Eugenia Quemé** 
+
+- Twitter: [@MaruKK](https://twitter.com/MaruKK) 
+- Github: [@euqueme](https://github.com/euqueme) 
+- Gmail: euqueme@gmail.com
 
 ## 🤝 Contributing
 
@@ -172,14 +177,14 @@ This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Audrey-Ella-xo/ror-social-scaffold.svg?style=flat-square
-[contributors-url]: https://github.com/Audrey-Ella-xo/ror-social-scaffold/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Audrey-Ella-xo/ror-social-scaffold.svg?style=flat-square
-[forks-url]: https://github.com/Audrey-Ella-xo/ror-social-scaffold/network/members
-[stars-shield]: https://img.shields.io/github/stars/Audrey-Ella-xo/ror-social-scaffold.svg?style=flat-square
-[stars-url]: https://github.com/Audrey-Ella-xo/ror-social-scaffold/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Audrey-Ella-xo/ror-social-scaffold.svg?style=flat-square
-[issues-url]: https://github.com/Audrey-Ella-xo/ror-social-scaffold/issues
+[contributors-shield]: https://img.shields.io/github/contributors/euqueme/ror-social-scaffold.svg?style=flat-square
+[contributors-url]: https://github.com/euqueme/ror-social-scaffold/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/euqueme/ror-social-scaffold.svg?style=flat-square
+[forks-url]: https://github.com/euqueme/ror-social-scaffold/network/members
+[stars-shield]: https://img.shields.io/github/stars/euqueme/ror-social-scaffold.svg?style=flat-square
+[stars-url]: https://github.com/euqueme/ror-social-scaffold/stargazers
+[issues-shield]: https://img.shields.io/github/issues/euqueme/ror-social-scaffold.svg?style=flat-square
+[issues-url]: https://github.com/euqueme/ror-social-scaffold/issues
 [product-screenshot]: /app/assets/images/screenshot.png
 
 
